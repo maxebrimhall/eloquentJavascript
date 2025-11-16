@@ -1,0 +1,11 @@
+function marioPyramid(){
+	let hash = "#"
+	for(let col = 0; col < 7; col++){
+		if(col == 0){
+			console.log("#")
+		}else{
+			hash += "#"
+			console.log(hash)		
+		}
+	}
+}
