@@ -1,0 +1,20 @@
+function create(){
+	let counter = 0
+	let woody = "Fizz"
+	let jessie = "Buzz"
+	while(counter <= 100){
+		if(counter % 3 === 0 && counter % 5 === 0 && counter !== 0){
+			console.log(woody+jessie)
+			counter++
+		}else if(counter % 3 === 0 && counter !== 0){
+			console.log(woody)
+			counter++
+		}else if(counter % 5 === 0 && counter != 0){
+			console.log(jessie)
+			counter++
+		}else{
+			console.log(counter)
+			counter++
+		}
+	}
+}
