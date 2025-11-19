@@ -1,0 +1,9 @@
+function min(x, y){
+	let minimum = Math.min(x, y)
+	console.log(minimum)
+}
+
+const min = (x,y) => {
+	let minimum = Math.min(x,y)
+	console.log(minimum)
+}
