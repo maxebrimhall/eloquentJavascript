@@ -1,0 +1,13 @@
+function isEven(pos){
+	if(pos >= 0){
+		if(pos % 2 === 0){
+			console.log(true)
+		}else if(pos % 1 === 0){
+			console.log(false)
+		}else{
+			return isEven(pos - 2)
+		}
+	}else{
+		console.log("ERROR: Only use Whole Numbers")
+	}
+}
