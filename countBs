@@ -1,0 +1,12 @@
+function countBs(word){
+	let capitalize = word.toUpperCase()
+	let arr = []
+	let sum = 0
+	for(let i = 0; i < capitalize.length; i++){
+		arr.push(capitalize[i])
+		if(arr[i] === "B"){
+			sum += 1
+		}
+	}
+	console.log(sum)
+}
