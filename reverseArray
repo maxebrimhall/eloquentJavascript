@@ -1,0 +1,7 @@
+function reverseArray(arr){
+	let inverseArray = []
+	for(let i = 0;	i < arr.length; i++){
+		inverseArray.unshift(arr[i])
+	}
+	console.log(inverseArray)
+}
