@@ -1,0 +1,16 @@
+const list = {
+	value: 0,
+	rest: {
+		value: 0,
+		rest: {
+			value: 0,
+			rest: null
+		}
+	}
+}
+
+function arrayToList([x,y,z]){
+	list.value = x
+	list.rest.value = y
+	list.rest.rest.value = z
+}
