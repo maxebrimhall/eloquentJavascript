@@ -1,0 +1,18 @@
+Also write a listToArray function that produces an array from a list. 
+*/
+function listToArray (list){
+	let arr = []
+	for(let node = list; node; node.rest){
+		arr.unshift(list)
+	}
+}
+function prepend(e, list){
+	/*Add the helper functions prepend, which takes an element and a list and 
+creates a new list that adds the element to the front of the input list, */
+
+}
+function nth(list, n){
+	/*and nth, which takes a list and a number and returns the element at 
+the given position in the list (with zero referring to the first element) or undefined when there is no such element.*/
+
+}
