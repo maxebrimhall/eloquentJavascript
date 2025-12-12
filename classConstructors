@@ -1,0 +1,16 @@
+class Person {
+    constructor(name, age, email){
+        this.name = name
+        this.age = age
+        this.email = email
+    }
+    greet(){
+        `Hello ${this.name}`
+    }
+    birthday(date){
+        `Your Birthday is ${date}`
+    }
+    getInfo(){
+        `Your email is ${this.email}`
+    }
+}
