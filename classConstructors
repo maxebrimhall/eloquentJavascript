@@ -4,7 +4,7 @@ class Person {
         this.age = age
         this.email = email
     }
-    greet(){
+    greet(line){
         `Hello ${this.name}`
     }
     birthday(date){
