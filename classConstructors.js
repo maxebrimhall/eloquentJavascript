@@ -1,3 +1,4 @@
+// This class takes a bit of information and creates a person object
 class person {
     constructor(name, age, email){
         this.name = name
